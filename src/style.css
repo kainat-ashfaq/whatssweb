@@ -1,0 +1,41 @@
+.main {
+  background-color: rgb(83, 156, 83);
+
+  height: 10vh;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.whole-div {
+  display: flex;
+  width: 90%;
+  height: 10vh;
+  justify-content: space-between;
+}
+.whats-div {
+  margin-top: -5px;
+  align-items: center;
+}
+.whats {
+  color: white;
+  font-weight: lighter;
+  text-align: justify;
+  padding-top: -2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.icons-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 18%;
+}
+@media screen and (max-width: 768px) {
+  .whats {
+    /* font-size: 20px; */
+  }
+  .icons-main {
+    font-size: 10px;
+    width: 25%;
+  }
+}
