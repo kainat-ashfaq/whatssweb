@@ -1,11 +1,13 @@
 .main {
   background-color: rgb(83, 156, 83);
-
+  margin: 0px 0px 0px 0px;
   height: 10vh;
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-around;
+  border: none;
+   border-bottom: 1px solid rgb(83, 156, 83);
 }
 .whole-div {
   display: flex;
@@ -21,18 +23,65 @@
   color: white;
   font-weight: lighter;
   text-align: justify;
-  padding-top: -2px;
+  padding-top: 10%;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .icons-main {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 18%;
 }
+/* NAVCSS */
+.nav {
+  background-color: rgb(83, 156, 83);
+  
+   /* background-color: orangered; */
+  height: 5vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0px 0px 0px 0px;
+  position: fixed;
+  top: 10%;
+  padding-bottom: 3%;
+  border: none;
+  border-top: 1px solid rgb(83, 156, 83);
+}
+.community {
+  font-size: 10px;
+  margin-left: -4%;
+}
+.status {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.text-butt {
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-bottom: 2px solid white;
+  width: 150%;
+}
+.butt-hover {
+  border: none;
+  background-color: transparent;
+color: white;
+  transition: 0.2s;
+}
+.butt-hover:hover {
+    background-color: rgb(0, 168, 0);
+  border-radius: 1px;
+  border-bottom: 2px solid white;
+  width: 150%;
+  box-sizing: border-box;
+  height: 5vh;
+}
 @media screen and (max-width: 768px) {
   .whats {
-    /* font-size: 20px; */
+    padding-top: 25%;
   }
   .icons-main {
     font-size: 10px;
