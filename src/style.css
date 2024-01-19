@@ -40,7 +40,7 @@
 /* NAVCSS */
 .nav {
   background-color: #008069;
-z-index: 1;
+  z-index: 1;
   height: 5vh;
   display: flex;
   width: 100%;
@@ -52,7 +52,7 @@ z-index: 1;
   border: none;
   /* border-top: 1px solid rgb(83, 156, 83); */
 }
-.kainat{
+.kainat {
   padding-top: 4%;
 }
 .community {
@@ -90,6 +90,7 @@ z-index: 1;
 .chat-div {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 .div {
   border-radius: 50%;
@@ -145,6 +146,7 @@ z-index: 1;
 @media screen and (max-width: 768px) {
   .whats {
     padding-top: 20%;
+    font-size: 27px;
   }
   .icons-main {
     font-size: 10px;
@@ -153,8 +155,18 @@ z-index: 1;
   .status {
     margin-left: 0%;
   }
+  .text-butt{
+    width: 120%;
+  }
   .community {
     margin-left: 0;
+  }
+  .icons{
+    transform: scale(0.9);
+  }
+  .nav {
+    padding-bottom: 10.5%;
+  border-top: 2px solid #008069;
   }
   .div {
     margin-left: 0;
@@ -168,5 +180,17 @@ z-index: 1;
   .img {
     width: 55px;
     height: 55px;
+    margin-left: 7%;
+  }
+  .kainat {
+    padding-top: 14%;
+  }
+  .msg-2 {
+    width: 70%;
+  }
+  .chat-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
   }
 }
