@@ -1,13 +1,13 @@
 .main {
-  background-color: rgb(83, 156, 83);
+  background-color: #008069;
   margin: 0px 0px 0px 0px;
   height: 10vh;
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-around;
-  border: none;
-  border-bottom: 1px solid rgb(83, 156, 83);
+  position: fixed;
+  z-index: 1;
 }
 .icons {
   transform: scale(1.5);
@@ -39,8 +39,8 @@
 }
 /* NAVCSS */
 .nav {
-  background-color: rgb(83, 156, 83);
-
+  background-color: #008069;
+z-index: 1;
   height: 5vh;
   display: flex;
   width: 100%;
@@ -50,7 +50,10 @@
   top: 10%;
   padding-bottom: 3%;
   border: none;
-  border-top: 1px solid rgb(83, 156, 83);
+  /* border-top: 1px solid rgb(83, 156, 83); */
+}
+.kainat{
+  padding-top: 4%;
 }
 .community {
   font-size: 10px;
@@ -75,7 +78,7 @@
   /* transition: 0.2s; */
 }
 .butt-hover:hover {
-  background-color: rgb(0, 168, 0);
+  background-color: #187c6a;
   border-radius: 1px;
   border-bottom: 2px solid white;
   width: 150%;
@@ -117,6 +120,9 @@
   display: flex;
   align-items: center;
 }
+.time {
+  font-size: 12px;
+}
 
 .tick {
   color: blue;
@@ -127,6 +133,13 @@
 }
 .call {
   color: red;
+}
+.counter {
+  margin-left: 20px;
+  /* color: green; */
+  background-color: #19b50b;
+  border-radius: 50px;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -148,5 +161,12 @@
   }
   .name {
     margin-top: 7.4%;
+  }
+  .chat-text {
+    width: 77%;
+  }
+  .img {
+    width: 55px;
+    height: 55px;
   }
 }
